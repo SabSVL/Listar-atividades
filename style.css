@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Nunito Sans;
+  background: linear-gradient(236.85deg, #dcdcdc 27.26%, #c0c0c0 96.03%);
+}
+header {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.container {
+  margin: 10px 20px;
+  background: linear-gradient(210.85deg, #808080 29.26%, #3468a7 92.03%);
+  padding: 20px;
+  border-radius: 20px;
+  display: block;
+}
+.container input,
+.container button {
+  margin: 10px 20px 10px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border-color: white;
+  background: white;
+}
+.container button {
+  background: #402f87;
+  color: white;
+}
+
+table {
+  background: #dedbff;
+  float: left;
+  margin: 2px;
+  text-align: center;
+  border: 2px #2d2727;
+  border-collapse: collapse;
+}
+th,
+tr,
+td {
+  border: solid 1px #402f87;
+  color: black;
+}
+th {
+  background: #402f87;
+  color: white;
+}
+
+div {
+  display: flex;
+}
+p {
+  margin: 10px 190px;
+  font-size: 20px;
+}
+
+td button {
+  padding: 1px;
+  border-radius: 10px;
+  border-color: #dedbff;
+}
+#btnExcluir {
+  background: #ffbaba;
+}
+#btnConcluido {
+  background: #baffc1;
+}

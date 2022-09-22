@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Atividades Escolares</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <header>
+    Atividades Escolares
+  </header>
+  <div class="container">
+    <input type="text" id="materia" autocomplete="off" placeholder="escreva a materia" />
+    <input type="text" id="atividade" autocomplete="off" placeholder="escreva a atividade" />
+    <input type="date" id="data" />
+    <button onclick="Adicionar()" id="btnAdicionar">Adicionar</button>
+  </div>
+  <hr>
+
+  <div>
+
+    <p>Em Progresso</p>
+    <p>Concluidos</p>
+  </div>
+  <table style="width:50%">
+    <thead>
+      <tr>
+        <th>Matéria</th>
+        <th>Atividade</th>
+        <th>Data</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="progressoAtividades">
+    </tbody>
+  </table>
+  <table style="width:49%">
+    <thead>
+      <tr>
+        <th>Matéria</th>
+        <th>Atividade</th>
+        <th>Data</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="concluidoAtividades">
+    </tbody>
+  </table>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
